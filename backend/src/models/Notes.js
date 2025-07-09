@@ -6,11 +6,11 @@ import mongoose from "mongoose";
 const notesSchema = new mongoose.Schema({
     title: {
         type: String,
-        require: true
+        required: true
     },
     content: {
         type: String,
-        require: true
+        required: true
     }, 
     }, {timestamps: true} // createdAt, updatedAt
 );
